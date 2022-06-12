@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 20px auto;
     display: flex;
     justify-content: space-around;
@@ -24,11 +24,12 @@ body {
         rgba(0, 0, 0, 0.3) 0px 30px 60px -40px,
         rgba(88, 89, 90, 0.35) 0px -2px 6px 0px inset;
 	text-align: left;
+    padding: 10px;
 }
 
 .note {
-	padding: 10px;
 	margin: 0;
+    cursor: pointer;
 }
 
 .color1 {
